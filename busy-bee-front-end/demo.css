@@ -55,10 +55,20 @@ main{
     border: 1px solid var(--clr-dark);
     border-radius: 100px;
     background-color: var(--clr-light);
-    position: absolute;
-    right: -12px;
-    top: -4px;
+    position: absolute;  
     padding: 10px;
+}
+
+.icon-r {
+    top: -4px;
+    right: -12px;
+}
+
+.icon-l {
+    top: 0px;
+    left: -20px;
+    height: 100%;
+    aspect-ratio: 1/1;
 }
 .material-symbols-outlined {
 

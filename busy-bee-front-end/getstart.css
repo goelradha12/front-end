@@ -204,8 +204,17 @@ main.demo{
     padding: 10px;
 }
 
-.choices * {
-    padding-block: 200px;
+/* Choices section */
+
+.choices h2{
+ padding-bottom: 20px;
+}
+
+.image-option {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
 }
 
 .fixed-btn {
