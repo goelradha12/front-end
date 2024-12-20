@@ -1,0 +1,134 @@
+:root {
+    --clr-primary: #ffbf23;
+    --clr-dark: #000000;
+    --clr-light: #ffffff;
+    --weight: 128px;
+}
+
+*,
+*::after,*::before{
+    box-sizing: border-box;
+    font-family: "pt serif",serif;
+    
+}
+
+body {
+    color: var(--clr-dark);
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--clr-primary); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--weight);
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+h2 {
+    font-size: calc(var(--weight)/2);
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+h3 {
+    font-size: calc(var(--weight)/3);
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+p {
+    font-size: calc(var(--weight)/7);
+    line-height: 1.6em;
+}
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+a {
+    color: var(--clr-dark);
+    text-decoration: none;
+    display: inline-block;
+}
+a.btn, button {
+    cursor: pointer;
+    background-color: var(--clr-primary);
+    border: 1px groove var(--clr-dark);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 var(--clr-dark);
+}
+
+a.btn:hover, button:hover {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+
+.flex-flow {
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.center-all {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+}
+
+.btn-big {
+    padding: 10px;
+    margin: 20px 20px 0 0;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.primary-bck {
+    background-color: var(--clr-primary);
+    border-block: 5px solid var(--clr-dark);
+}
+
+header {
+    justify-content: space-between;
+}
+
+div.spacer {
+    height: 50px;
+}
+
+footer {
+    border-top: 5px solid var(--clr-primary);
+    padding-block: 32px;
+}

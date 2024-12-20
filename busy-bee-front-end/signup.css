@@ -1,0 +1,28 @@
+section {
+    background-image: url(./assets/vector1.webp), url(./assets/vector2.webp), url(./assets/vector3.webp),url(./assets/vector3.webp);
+    background-position: 20% 20%, 80% 40%, 60% 60%, 30% 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section {
+    padding-block: 60px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+form > input{
+    width: 40%;
+    min-width: 500px;
+    height: 50px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 0px 2px var(--clr-dark);
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" class="rel">
+    <link rel="stylesheet" href="./getstart.css" class="rel">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+    </style>
+     <link rel="shortcut icon" href="./assets/link bee-logo.png" type="image/x-icon">
+     <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward" />
+    
+    <title>Create Profile</title>
+</head>
+
+<body>
+    <header class="flex-flow container">
+        <img src="./assets/link bee-logo.png" alt="Radha">
+        <p>@Radha</p>
+        <a class="btn btn-sm" href="./index.html">Link Bee</a>
+    </header>
+    <main class="container">
+        <h1>~ Customization ~</h1>
+        <section class="center-all">
+            <h2>~Profile Section~</h2>
+            <div class="flex-flow details">
+                <div>
+                    <img src="./assets/profile.webp" alt="Dummy image">
+                    <form action="">                        
+                        <input type="file" name="profileImage" id="profileImage">
+                        <button type="reset" class="btn-sm">Change Image</button>
+                    </form>
+                </div>
+                <div class="center-all">
+                    <form action="" class="center-all" id="userDetails">
+                        <input type="text" name="name" id="name" placeholder="Profile Name">
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Bio"></textarea>
+                        <button type="submit" class="btn-sm">Add Name and Bio</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="spacer"></div>
+        <section class="">
+            <h2>~ Add Social Media or Events ~</h2>
+            <p>Present your digital presence with pride</p>
+            <div id="social">
+                <div class="" id="">
+                    <img src="./assets/link bee-logo.png" alt="">
+                    <p><b>Gmail</b></p>
+                    <form action="">
+                        <input type="text" name="" id="" placeholder="Enter Title">
+                        <input type="url" name="" id="" placeholder="Enter Link Here">
+                        <button type="submit" class="btn-sm">Add</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="spacer"></div>
+        
+        <section id="editlinks">
+            <h2>~ Edits Links ~</h2>
+            <div>
+                <p><b>Name: </b>Dummy UserName</p>
+                <p><b>Bio: </b>Bio for dummy user, you links will show up below:</p>
+            </div>
+            <div class="spacer"></div>
+            <div class="profile-links center-all" id="dummyLinks">
+                <div>
+                    <img src="" alt="">
+                    <span>Portfolio Website</span>
+                    <a class="btn btn-sm dlt-btn">Delete</a>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span>Linkedin</span>
+                    <a class="btn btn-sm dlt-btn">Delete</a>
+    
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span>GeeksForGeeks Profile</span>
+                    <a class="btn btn-sm dlt-btn">Delete</a>
+    
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span>Facebook Profile</span>
+                    <a class="btn btn-sm dlt-btn">Delete</a>
+    
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <span>Leetcode Profile</span>
+                    <a class="btn btn-sm dlt-btn">Delete</a>
+    
+                </div>
+            </div>
+        </section>
+        <div class="spacer"></div>
+        <section id="preview">
+            <div class="sticky-view">
+                <h2>~ Preview ~</h2>
+                <div class="mobile-preview">
+                    <div class="notch"></div>
+                    <div class="flex-flow container preview-header">
+                        <img src="./assets/profile.webp" alt="Radha">
+                        <p>@username</p>
+                        <a class="btn btn-sm" href="./index.html">Link Bee</a>
+                    </div>
+                    <main class="center-all demo">
+                        <img src="./assets/profile.webp" class="profile-img" alt="Radha Image">
+                        <div class="content center-all">
+                            <p>@username</p>
+                            <p>Bio</p>
+                        </div>
+                        <div class="profile-links center-all" id="previewlinks">
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>Portfolio Website</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                            </a>
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>Linkedin</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                
+                            </a>
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>GeeksForGeeks Profile</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                
+                            </a>
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>Medium</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                            </a>
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>My Resume</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                                
+                            </a>
+                            <a href="#">
+                                <img src="" alt="">
+                                <span>Github</span>
+                                <span class="material-symbols-outlined icon">arrow_outward</span>
+                                
+                            </a>
+                        </div>
+                        <div class="spacer"></div>
+                        <div class="center-all footer">
+                            <img src="./assets/link bee-logo.png" alt="logo" srcset="">
+                            <span>~ Start connecting with the world now ~</span>
+                            <div id="copyright">Developed with love by Radha Goyal</div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <div class="choices">
+                <div class="preview1">
+
+                    <h2>~ Select Background Image ~</h2>
+                </div>
+
+                <div class="preview2">
+                    <h2>~ Select Gradient ~</h2>
+                </div>
+                <div class="preview3">
+                    <h2>~ Select Fonts ~</h2>
+                </div>
+                <div class="preview4">
+                    <h2>~ Select Background ~</h2>
+                </div>
+                <div class="preview5">
+                    <h2>~ Select Font Color (bio,profile) ~</h2>
+                </div>
+                <div class="preview6">
+                    <h2>~ Select Font Color (info text) ~</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="fixed-btn">
+        <a href=""><span>Analytics</span></a>
+        <a href=""><span>Save Changes</span></a>
+    </section>
+    <footer class="center-all">
+        <img src="./assets/link bee-logo.png" alt="logo" srcset="">
+        <span>~ Start connecting with the world now ~</span>
+        <div id="copyright">Developed with love by Radha Goyal</div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
