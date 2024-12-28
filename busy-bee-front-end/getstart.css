@@ -207,6 +207,7 @@ main.demo{
 /* Choices section */
 
 .choices h2{
+ padding-top: 60px;
  padding-bottom: 20px;
 }
 
@@ -257,3 +258,16 @@ main.demo{
     'opsz' 24
   }
   
+
+  #color-choice, #color-choice-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .color {
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 1px 5px 0px var(--clr-dark);
+    border-radius: 8px;
+  }
